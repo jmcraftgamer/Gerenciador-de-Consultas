@@ -1,0 +1,44 @@
+name: bemestar
+description: "BemEstar - Psicanalista ao seu lado"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.5.0
+  url_launcher: ^6.3.1
+  audioplayers: ^6.4.0
+  pdf: ^3.11.3
+  printing: ^5.14.0
+  share_plus: ^10.1.4
+  path_provider: ^2.1.0
+  flutter_local_notifications: ^18.0.1
+  tz: ^0.1.1
+  timezone: ^0.10.1
+  rxdart: ^0.28.0
+  file_picker: ^8.0.0
+  supabase_flutter: ^2.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/R.png
+    - assets/BannerBemEstar.png
+    - assets/Fundo1.png
+    - assets/Fundo2.png
+    - assets/Fundo3.png
+    - assets/sounds/
