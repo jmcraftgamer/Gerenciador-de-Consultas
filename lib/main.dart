@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'screens/splash_screen.dart';
@@ -10,6 +11,13 @@ import 'config/supabase_config.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Color(0xFFF3EEE7),
+    statusBarIconBrightness: Brightness.dark,
+    systemNavigationBarColor: Color(0xFFF3EEE7),
+    systemNavigationBarIconBrightness: Brightness.dark,
+  ));
 
   await Supabase.initialize(
     url: SupabaseConfig.url,
