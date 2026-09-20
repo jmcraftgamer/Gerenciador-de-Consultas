@@ -1,8 +1,8 @@
 {
-  "buildCommand": "flutter build web --release",
+  "installCommand": "curl -fsSL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.44.8-stable.tar.xz | tar xJ && ./flutter/bin/flutter config --no-analytics && ./flutter/bin/flutter pub get",
+  "buildCommand": "./flutter/bin/flutter build web --release",
   "outputDirectory": "build/web",
   "framework": null,
-  "installCommand": "flutter pub get",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
