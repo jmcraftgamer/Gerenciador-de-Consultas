@@ -3,7 +3,7 @@
     "short_name": "BemEstar",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#F3EEE7",
+    "background_color": "#FAF7F2",
     "theme_color": "#F3EEE7",
     "description": "Gerenciamento de consultas para psicanalistas",
     "orientation": "portrait-primary",

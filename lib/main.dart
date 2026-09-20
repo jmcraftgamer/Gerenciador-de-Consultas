@@ -13,9 +13,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-    statusBarColor: Color(0xFFF3EEE7),
+    statusBarColor: Color(0xFFFAF7F2),
     statusBarIconBrightness: Brightness.dark,
-    systemNavigationBarColor: Color(0xFFF3EEE7),
+    systemNavigationBarColor: Color(0xFFFAF7F2),
     systemNavigationBarIconBrightness: Brightness.dark,
   ));
 

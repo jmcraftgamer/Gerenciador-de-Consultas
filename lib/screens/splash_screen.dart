@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed(const Duration(milliseconds: 1500), () {
       if (mounted) {
         Navigator.pushReplacement(
           context,
@@ -35,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF3EEE7),
+      backgroundColor: const Color(0xFFFAF7F2),
       body: Center(
         child: Image.asset(
           'assets/R.png',
