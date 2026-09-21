@@ -1,10 +1,11 @@
 {
     "name": "BemEstar - Psicanalista",
     "short_name": "BemEstar",
+    "id": "/",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FAF7F2",
-    "theme_color": "#F3EEE7",
+    "theme_color": "#FAF7F2",
     "description": "Gerenciamento de consultas para psicanalistas",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
